@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Gimli, concepteur et développeur d'application web spécialisé en Java. Freelance dans le Morbihan, il accompagne PME et particuliers dans leurs projets.">
+  <title>Développeur Java freelance - Gimli</title>
+  <link rel="stylesheet" href="/css/style.css">
+  <link rel="stylesheet" href="/css/base.css">
+  <link rel="icon" href="/assets/favicon/favicon.svg">
+
+</head>
+
+<body id="haut">
+  <header>
+    <nav aria-label="Menu principal">
+      <ul>
+        <li><a href="/mini-projet/index.html" aria-current="page">Accueil</a></li>
+        <li><a href="/mini-projet/ressources.html">Ressources</a></li>
+        <li><a href="/mini-projet/soutenances.html">Soutenances</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+
+    <img src="/assets/img/gimli.webp" alt="image du personnage Gimli, le célèbre nain du seigneur des anneaux" width="240" height="240">
+
+    <h1>développeur web - Gimli Durin</h1>
+
+    <p>Ceci est la page de présentation générale</p>
+
+    <section>
+
+      <h2>Me contacter</h2>
+
+      <address>
+      <ul>
+        <li>Ville : Auray</li>
+        <li><a href="mailto:gimli.durin@test.com">gimli.durin@test.com</a></li>
+        <li><a href="https://github.com/Meltirys" target="_blank" rel="noopener noreferrer">Profil GitHub</a></li>
+      </ul>
+    </address>
+
+    </section>
+
+    <section>
+
+      <h2>À propos</h2>
+
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore quae fuga <strong>de la Moria</strong> quisquam quos, ea officia mollitia suscipit eum laudantium, id asperiores quidem distinctio temporibus dignissimos voluptatem quibusdam pariatur iure.</p>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore quae fuga numquam quisquam quos, ea officia mollitia suscipit eum laudantium, id asperiores quidem distinctio temporibus dignissimos voluptatem quibusdam pariatur iure.</p>
+
+    </section>
+
+    <section>
+
+      <h2>Formations et expériences</h2>
+
+      <ul>
+        <li><time datetime="2018-07">Juillet 2018</time> - <strong>BAC Professionnel SEN en option RT</strong> à Hennebont</li>
+        <li><time datetime="2026-06">Juin 2026</time> - <strong>Titre professionnel de développeur web</strong> à Vannes</li>
+      </ul>
+    </section>
+
+    <section>
+
+      <h2>Objectif professionnel</h2>
+
+      <ol>
+        <li>Poursuivre sur un MBA en développeur web</li>
+        <li>Trouver une alternance en dev</li>
+      </ol>
+
+    </section>
+
+    <section>
+
+      <h2>Compétences</h2>
+
+        <h3>Langues</h3>
+
+        <table>
+       <!-- Tableau des niveaux de maîtrise des langues-->
+          <caption>
+            Niveau de maîtrise par langue, selon le cadre européen commun de référence
+          </caption>
+
+          <thead>
+          <tr>
+            <th scope="col">Langue</th>
+            <th scope="col">Niveau</th>
+          </tr>
+          </thead>
+
+          <tbody>
+          <tr>
+            <th scope="row">Anglais</th>
+            <td>B1, lecture technique courante</td>
+          </tr>
+        </tbody>
+
+        </table>
+
+       <h3>Languages</h3>
+
+       <table>
+        <!-- Tableau des niveaux de maîtrise des différentes stacks -->
+        <caption>Niveau de maîtrise des différentes stacks sur une échelle de 0 à 10</caption>
+
+        <thead>
+          <tr>
+            <th scope="col">Stack</th>
+            <th scope="col">Niveau</th>
+          </tr>
+        </thead>
+
+        <tbody>
+          <tr>
+            <th scope="row">HTML</th>
+            <td></td>
+          </tr>
+          <tr>
+            <th scope="row">CSS</th>
+            <td></td>
+          </tr>
+          <tr>
+            <th scope="row">JavaScript</th>
+            <td></td>
+          </tr>
+          <tr>
+            <th scope="row">PHP</th>
+            <td></td>
+          </tr>
+        </tbody>
+
+       </table>
+
+       <h3>Outils</h3>
+       <!--Liste des outils utilisés-->
+       <ul>
+        <li>VSCode</li>
+        <li>IntelliJ</li>
+        <li>Github</li>
+       </ul>
+
+    </section>
+
+    <section>
+
+      <h2>M'écrire</h2>
+
+      <p>C'est ici que vous pouvez me contacter au travers de ce petit formulaire!</p>
+
+      <form action="/mini-projet/merci.html" method="post">
+        <label for="nom">Nom:</label>
+          <input type="text" id="nom" name="nom" autocomplete="name" required>
+        <label for="email">Email:</label>
+          <input type="email" id="email" name="email" autocomplete="email" required>
+        <label for="tel">Téléphone:</label>
+          <input type="tel" id="tel" name="tel">
+        <label for="motif">Motif:</label>
+          <select id="motif" name="motif" required>
+            <option value="">Sélectionnez un motif</option>
+            <option value="devis">Demande de devis</option>
+            <option value="info">Demande d'information</option>
+            <option value="mission">Proposition de mission</option>
+          </select>
+        <label for="message">Message:</label>
+          <textarea id="message" name="message" rows="3" minlength="10" required></textarea>
+        <input type="radio" name="categorie" id="categorie-pro" value="professionnel">
+              <label for="categorie-pro">Professionnel</label>
+              <input type="radio" name="categorie" id="categorie-particulier" value="particulier">
+              <label for="categorie-particulier">Particulier</label>
+        <label for="copy">M'envoyer une copie</label>
+          <input type="checkbox" id="copy" name="copy" value="copy">
+        <div>
+          <p>Confirmer l'envoi</p>
+          <input type="submit" value="Envoyer">
+        </div>
+      </form>
+    </section>
+    <!-- L'on viens écrire un commentaire d'essai ici-->
+
+    <ul id="recap"></ul>
+
+    <script>
+      const recap = document.getElementById('recap');
+
+      for (const [cle, valeur] of new URLSearchParams(window.location.search)) {
+      const item = document.createElement('li');
+      item.textContent = cle + ' : ' + valeur;
+      recap.append(item);
+      }
+    </script>
+
+
+  </main>
+
+  <footer>
+<nav aria-label="Menu secondaire">
+
+      <ul>
+        <li><a href="/mini-projet/index.html" aria-current="page">Accueil</a></li>
+        <li><a href="/mini-projet/ressources.html">Ressources</a></li>
+        <li><a href="/mini-projet/soutenances.html">Soutenances</a></li>
+      </ul>
+
+      <p><a href="#haut">Retour en haut de page</a></p>
+
+      <p>©<time datetime="2026">2026</time>, Tous droits réservés</p>
+
+    </nav>
+  </footer>
+
+</body>
+</html>
